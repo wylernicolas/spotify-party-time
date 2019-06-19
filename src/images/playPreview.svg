@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.107422, 2.107422)">
+            <circle id="Oval" stroke="#0DAC3F" stroke-width="4" fill-opacity="0.329108392" fill="#75EA44" cx="17.8925781" cy="17.8925781" r="17.8925781"></circle>
+            <polygon id="Triangle" fill="#0DAC3F" transform="translate(19.892578, 17.892578) rotate(-270.000000) translate(-19.892578, -17.892578) " points="19.8925781 12.1425781 28.1133423 23.6425781 11.671814 23.6425781"></polygon>
+        </g>
+    </g>
+</svg>

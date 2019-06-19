@@ -1,0 +1,85 @@
+@import '../../scss/vars.scss';
+
+.sideMenu{
+    position: absolute;
+    background: white;
+    width: 300px;
+    height: calc(100vh - 20px);
+    z-index: 4;
+    transition: left 300ms ease-out;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 10px;
+
+    -webkit-box-shadow: 3px 0px 5px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 0px 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 0px 5px 2px rgba(0, 0, 0, 0.3);
+
+
+    &.close{
+        left: -330px;
+    }
+
+    .closeButton{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+
+        &:hover{
+            #Artboard{
+                fill: lighten($dark-violet, 30%);
+            }   
+        }
+
+        #Artboard{
+            fill: $dark-violet;
+        }
+    }
+
+    .playlist{
+        margin: 0px 5px;
+
+        ul{
+            list-style: none;
+            padding: 0;
+            overflow: auto;
+            height: calc(100vh - 80px);
+            display: flex;
+            flex-direction: column;
+
+            li{
+                display: flex;
+                padding: 10px;
+                background: $dark-violet;
+                color: white;
+                font-size: 14px;
+                border-bottom: 1px dashed white;
+                position: relative;
+
+                &:last-child{
+                    border: none;
+                }
+
+                p{
+                    margin: 0;
+                    padding-left: 15px;
+                    font-family: 'Fresca', sans-serif;
+                }
+
+                .removeTrack{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    padding: 5px 15px;
+                    background: $red;
+                    color: white;
+                    border-radius: 10px 0 0 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+@import '../../scss/vars.scss';
+
+.songs{
+    margin: 90px 0;
+
+    .tracks-list{
+        display: inline-grid;
+        grid-template-columns: repeat(auto-fit, 180px);
+        min-width: 85vw;
+        grid-gap: 15px;
+        padding: 0;
+        list-style: none;
+        position: relative;
+        left: 50vw;
+        transform: translateX(-50%);
+
+        @media #{$phone} {
+            display: flex;
+            width: 90%;
+            flex-direction: column;
+        }
+    }
+
+    .pagination{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+
+        @media #{$phone} {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            height: 50px;
+
+            -webkit-box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 3px 17px 0px rgba(0, 0, 0, 0.4);
+        }
+
+        .btn{
+            margin-top: 30px;
+            width: 150px;
+            text-align: center;
+            display: block;
+            background: white;
+            color: $violet;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-family: 'Fresca', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            cursor: pointer;
+
+            @media #{$phone} {
+                width: 50%;
+                margin-top: 0px;
+                border-radius: 0 !important;
+                user-select: none;
+                border-top: 2px solid $violet;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+
+            &:hover{
+                background: $violet;
+                color: white;
+            }
+
+            &.prev{
+                border-right: 1px solid $violet;
+                -webkit-border-top-left-radius: 160px;
+                -webkit-border-bottom-left-radius: 160px;
+                -moz-border-radius-topleft: 160px;
+                -moz-border-radius-bottomleft: 160px;
+                border-top-left-radius: 160px;
+                border-bottom-left-radius: 160px;
+            }
+    
+            &.next{
+                border-left: 1px solid $violet;
+                -webkit-border-top-right-radius: 160px;
+                -webkit-border-bottom-right-radius: 160px;
+                -moz-border-radius-topright: 160px;
+                -moz-border-radius-bottomright: 160px;
+                border-top-right-radius: 160px;
+                border-bottom-right-radius: 160px;
+            }
+
+    
+            &.disabled{
+                background: grey;
+                color: darken($violet, 30%)
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+
+@import '../../scss/vars.scss';
+
+.actionsBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    background: rgb(209, 209, 209);
+    border-top: 3px solid rgb(255, 174, 0);
+
+    .play{
+        cursor: pointer;
+        width: 44px;
+
+        @media #{$phone} {
+            margin-right: 10px;
+        }
+
+        .playBtn{
+            transition: 100ms linear all;
+
+            &.off{
+                opacity: .4;
+                transition: none;
+                cursor: default;
+                &:hover{
+                    transform: scale(1);
+                }
+            }
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .playerWrapper{
+        overflow: hidden;
+        height: 180px;
+        width: 100%;
+        background: rgba(0,0,0, 0.8);
+        position: absolute;
+        top: 20px;
+
+        @media #{$phone} {
+            height: 285px;
+        }
+
+        .closePreview{
+            position: absolute;
+            bottom: 5px;
+            color: white;
+            font-size: 12px;
+            display: block;
+            left: calc(50% - 50px);
+            cursor: pointer;
+
+            @media #{$phone} {
+                font-size: 16px;
+            }
+        }
+
+        .playAnim{
+            background: url('../../images/playing.gif');
+            width: 60px;
+            height: 60px;
+            display: block;
+            background-size: cover;
+            background-color: snow;
+            border-radius: 50%;
+            background-position: center;
+            position: absolute;
+            top: calc(50% - 30px);
+            left: calc(50% - 30px);
+        }
+        
+        .show{
+            display: block;
+        }
+
+        .player{
+            opacity: 0;
+        }
+    }
+
+}

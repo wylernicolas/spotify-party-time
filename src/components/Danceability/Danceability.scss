@@ -1,0 +1,52 @@
+
+@import '../../scss/vars.scss';
+
+.danceability{
+    display: flex;
+    align-items: center;
+
+    .danceSvg{
+        margin-right: 15px;
+        width: 40px;
+        height: auto;
+    }
+
+    .indicator{
+        display: flex;
+        flex-direction: column;
+
+        .label{
+            font-family: 'Fresca', sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            color: $blue;
+            margin: 5px;
+        }
+
+        .bar{
+            width: 100px;
+            height: 30px;
+            background: #aba495;
+            position: relative;
+            height: 15px;
+            overflow: hidden;
+            border-radius: 50px;
+        
+            >div{
+                height: 100%;
+                width: 0%;
+                background: $yellow;
+                position: absolute;
+                bottom: 0;
+                transition: 300ms width;
+            }
+        }
+
+        .value{
+            margin-top: 5px;
+            font-size: 14px;
+            text-align: center;
+            color: $yellow;
+        }
+    }
+}

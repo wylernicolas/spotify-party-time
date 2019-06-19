@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Papirus-Team-Papirus-Apps-Preferences-system-power</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="13.9997995 6.000329 13.9997995 12.000243 19.999714 12.000243 13.9997995 22.0001 13.9997995 16.000186 7.9998855 16.000186"></polygon>
+        <filter x="-12.5%" y="-9.4%" width="125.0%" height="118.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <path d="M27.991211,14.332031 C27.8154395,21.932801 21.6446365,28 14,28 C6.3560185,28 0.18557305,21.93384 0.00878905,14.3339845 C0.0057006,14.3892935 0,14.443881 0,14.5 C0,22.255889 6.244,28.5 14,28.5 C21.7560005,28.5 28,22.255889 28,14.5 C28,14.4432765 27.99436,14.387943 27.99121,14.332031 L27.991211,14.332031 Z" id="path-3"></path>
+        <filter x="-7.1%" y="-14.1%" width="114.3%" height="128.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Papirus-Team-Papirus-Apps-Preferences-system-power" fill-rule="nonzero">
+            <path d="M13.9999995,1.45e-05 C6.244,1.45e-05 0,6.2440145 0,14.0000145 C0,21.756014 6.244,28.0000145 13.9999995,28.0000145 C21.756,28.0000145 28,21.756014 28,14.0000145 C28,6.2440145 21.756,1.45e-05 13.9999995,1.45e-05 Z" id="Path" fill="#FECD38"></path>
+            <path d="M14,0 C6.244111,0 0,6.244111 0,14 C0,14.0491745 0.00559665,14.096983 0.00878905,14.145508 C0.1961862,6.555248 6.3630015,0.5 14,0.5 C21.636999,0.5 27.803814,6.555248 27.991211,14.145508 C27.9943845,14.097015 28,14.0491015 28,14 C28,6.244111 21.7558895,0 14,0 Z" id="Path" fill="#FFFFFF" opacity="0.2"></path>
+            <g id="Path">
+                <use fill="#BF0B45" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+            <path d="M27.991211,14.332031 C27.8154395,21.932801 21.6446365,28 14,28 C6.3560185,28 0.18557305,21.93384 0.00878905,14.3339845 C0.0057006,14.3892935 0,14.443881 0,14.5 C0,22.255889 6.244,28.5 14,28.5 C21.7560005,28.5 28,22.255889 28,14.5 C28,14.4432765 27.99436,14.387943 27.99121,14.332031 L27.991211,14.332031 Z" id="Path" fill="#000000" opacity="0.2"></path>
+            <g id="Path" opacity="0.2">
+                <use fill="#000000" xlink:href="#path-3"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

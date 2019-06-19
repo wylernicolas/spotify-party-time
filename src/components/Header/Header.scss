@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #0a0a22;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.34);
+
+    span{
+        font-family: 'Lobster', cursive;
+        font-size: 35px;
+        color: white;
+        display: block;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        z-index: 0;
+    }
+
+    .user{
+        width: 20%;
+    }
+    
+    .hamburger{
+        margin-left: 40px;
+        z-index: 1;
+    }
+}

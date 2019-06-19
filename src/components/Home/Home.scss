@@ -1,0 +1,16 @@
+
+@import '../../scss/vars.scss';
+
+.home{
+    width: 100%;
+    opacity: 0;
+
+    .hamburger{
+        cursor: pointer;
+        &:hover{
+           #icon *{
+               fill: lighten($dark-violet, 30%);
+           }
+        }
+    }
+}

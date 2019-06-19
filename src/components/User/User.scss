@@ -1,0 +1,25 @@
+@import '../../scss/vars.scss';
+
+.user{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    align-items: center;
+    margin-left: 50px;
+
+    @media #{$phone} {
+        display: none;
+    }
+
+    .displayName{
+        color: white;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    img{
+        height: 50%;
+        border-radius: 100px;
+        border: 1px solid white;
+    }
+}

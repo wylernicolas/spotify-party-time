@@ -1,0 +1,25 @@
+
+@import './scss/vars.scss';
+@import './scss/mixins.scss';
+@import './scss/fonts.scss';
+
+.App {
+  text-align: center;
+
+  ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .listItem{
+    list-style: none;
+    background: lightcyan;
+    width: 100%;
+    padding: 20px 0px;
+
+    &:nth-child(odd){
+      background: lightgray;
+    }
+  }
+}

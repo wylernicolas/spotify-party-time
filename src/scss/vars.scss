@@ -1,0 +1,16 @@
+$violet: #8525E9;
+$dark-violet: #0e1051;
+$blue: #2472b9;
+$dark-blue: #0a0a22;
+$yellow: #e8a213;
+$red: #c50404;
+$dark-red: #530909;
+$green: #4CD964;
+$green-highlight: #0fbf2d;
+
+$phone: 'screen and (min-width: 0) and (max-width: 500px)';
+$tablet: screen and (min-width: 501px) and (max-width: 1023px);
+$phoneAndTablet: screen and (min-width: 0px) and (max-width: 1023px);
+$tabletPortrait: screen and (min-width: 768px);
+$tabletLandscape: screen and (min-width: 1024px);
+$max-content-width-desktop: 1800px;
